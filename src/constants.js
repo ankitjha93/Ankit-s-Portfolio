@@ -34,6 +34,7 @@ import choukseyLogo from './assets/education_logo/chouksey_logo.png';
 // Project Section Logo's
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import popcornplayLogo from './assets/work_logo/popcornplay.png';
+import nutriplateLogo from './assets/work_logo/nutriplate.png';
 
 export const personalInfo = {
   name: "Ankit Jha",
@@ -188,6 +189,18 @@ export const projects = [
     tags: ["React.js", "Firebase Auth", "Firestore", "Redux Toolkit", "Stripe", "Tailwind CSS"],
     github: "https://github.com/ankitjha93/PopcornPlay",
     webapp: "https://playflare.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "NutriPlate",
+    subtitle: "Nutrition & Meal-Planning Platform",
+    description:
+      "Developed 'NutriPlate,' a modern, fully responsive nutrition and meal-planning website using HTML5 and CSS3 with a focus on clean layout and intuitive UX. Designed structured sections to showcase healthy meals with complete mobile responsiveness and consistent styling. Deployed on Netlify, ensuring fast loading, cross-browser compatibility, and seamless public accessibility.",
+    image: nutriplateLogo,
+    year: "2023",
+    tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Netlify", "UI/UX"],
+    github: "https://github.com/ankitjha93/NutriPlate",
+    webapp: "https://nutriplate.netlify.app/",
   },
 ];
 
