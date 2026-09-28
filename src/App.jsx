@@ -11,7 +11,7 @@ import { BlurBlob } from "./BlurBlob.jsx";
 
 const App = () => {
   return (
-    <div className="bg-[#050414]">
+    <div className="bg-[#050414] min-h-screen relative overflow-hidden text-white">
       <BlurBlob
         position={{ top: "35%", left: "20%" }}
         size={{ width: "30%", height: "40%" }}

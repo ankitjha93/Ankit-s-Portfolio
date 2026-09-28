@@ -20,17 +20,17 @@ export const BlurBlob = ({ position, size }) => {
       <div className="w-full h-full bg-purple-500 rounded-full opacity-20 blur-3xl animate-blob"></div>
     </div>
   );
-
-  // Define prop types
-  BlurBlob.PropTypes =  {
-    position: PropTypes.shape({
-      top: PropTypes.string,
-      left: PropTypes.string,
-    }),
-
-    size: PropTypes.shape({
-      width: PropTypes.string,
-      height: PropTypes.string,
-    }),
-  };
 };
+
+// Define prop types
+BlurBlob.propTypes = {
+  position: PropTypes.shape({
+    top: PropTypes.string,
+    left: PropTypes.string,
+  }),
+  size: PropTypes.shape({
+    width: PropTypes.string,
+    height: PropTypes.string,
+  }),
+};
+
