@@ -23,6 +23,9 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 
+import mysqlLogo from './assets/tech_logo/mysql.png';
+import cLogo from './assets/tech_logo/c.png';
+
 // Company / Experience Logo's
 import gbjbuzzLogo from './assets/company_logo/gbjbuzz_logo.png';
 import bluestockLogo from './assets/company_logo/bluestock_logo.png';
@@ -59,48 +62,62 @@ export const personalInfo = {
 
 export const SkillsInfo = [
   {
-    title: "Frontend",
+    id: "frontend",
+    title: "Frontend Development",
+    subtitle: "Modern, responsive, component-driven user interfaces",
     skills: [
-      { name: "React.js", logo: reactjsLogo },
-      { name: "Next.js", logo: nextjsLogo },
-      { name: "Redux Toolkit", logo: reduxLogo },
-      { name: "Tailwind CSS", logo: tailwindcssLogo },
-      { name: "HTML5", logo: htmlLogo },
-      { name: "CSS3", logo: cssLogo },
-      { name: "JavaScript", logo: javascriptLogo },
-      { name: "TypeScript", logo: typescriptLogo },
+      { name: "React.js", logo: reactjsLogo, level: "Advanced" },
+      { name: "Next.js", logo: nextjsLogo, level: "Advanced" },
+      { name: "TypeScript", logo: typescriptLogo, level: "Advanced" },
+      { name: "JavaScript", logo: javascriptLogo, level: "Advanced" },
+      { name: "Redux Toolkit", logo: reduxLogo, level: "Proficient" },
+      { name: "Tailwind CSS", logo: tailwindcssLogo, level: "Advanced" },
+      { name: "HTML5", logo: htmlLogo, level: "Advanced" },
+      { name: "CSS3", logo: cssLogo, level: "Advanced" },
     ],
   },
   {
+    id: "backend",
     title: "Backend & Cloud",
+    subtitle: "Scalable microservices, REST APIs, and database engineering",
     skills: [
-      { name: "Node.js", logo: nodejsLogo },
-      { name: "Express.js", logo: expressjsLogo },
-      { name: "Firebase / Firestore", logo: firebaseLogo },
-      { name: "PostgreSQL", logo: postgreLogo },
-      { name: "MongoDB", logo: mongodbLogo },
+      { name: "Node.js", logo: nodejsLogo, level: "Advanced" },
+      { name: "Express.js", logo: expressjsLogo, level: "Advanced" },
+      { name: "PostgreSQL", logo: postgreLogo, level: "Advanced" },
+      { name: "MongoDB", logo: mongodbLogo, level: "Proficient" },
+      { name: "Redis", iconName: "SiRedis", iconColor: "#DC382D", level: "Proficient" },
+      { name: "Prisma ORM", iconName: "SiPrisma", iconColor: "#818cf8", level: "Advanced" },
+      { name: "Firebase", logo: firebaseLogo, level: "Proficient" },
+      { name: "MySQL", logo: mysqlLogo, level: "Proficient" },
     ],
   },
   {
+    id: "languages",
     title: "Programming Languages",
+    subtitle: "Object-oriented, functional & algorithmic problem solving",
     skills: [
-      { name: "JavaScript", logo: javascriptLogo },
-      { name: "TypeScript", logo: typescriptLogo },
-      { name: "Python", logo: pythonLogo },
-      { name: "C++", logo: cppLogo },
-      { name: "Java", logo: javaLogo },
+      { name: "C++", logo: cppLogo, level: "Advanced (DSA)" },
+      { name: "Python", logo: pythonLogo, level: "Proficient" },
+      { name: "JavaScript", logo: javascriptLogo, level: "Advanced" },
+      { name: "TypeScript", logo: typescriptLogo, level: "Advanced" },
+      { name: "Java", logo: javaLogo, level: "Proficient" },
+      { name: "C", logo: cLogo, level: "Proficient" },
     ],
   },
   {
-    title: "Tools & Platforms",
+    id: "tools",
+    title: "DevOps & Tools",
+    subtitle: "Containerization, monorepos, version control & developer workflow",
     skills: [
-      { name: "Git", logo: gitLogo },
-      { name: "GitHub", logo: githubLogo },
-      { name: "VS Code", logo: vscodeLogo },
-      { name: "Postman", logo: postmanLogo },
-      { name: "Vercel", logo: vercelLogo },
-      { name: "Netlify", logo: netlifyLogo },
-      { name: "Figma", logo: figmaLogo },
+      { name: "Docker", iconName: "SiDocker", iconColor: "#2496ED", level: "Proficient" },
+      { name: "Nx Monorepo", iconName: "SiNx", iconColor: "#38bdf8", level: "Proficient" },
+      { name: "Git", logo: gitLogo, level: "Advanced" },
+      { name: "GitHub", logo: githubLogo, level: "Advanced" },
+      { name: "Postman", logo: postmanLogo, level: "Advanced" },
+      { name: "VS Code", logo: vscodeLogo, level: "Advanced" },
+      { name: "Vercel", logo: vercelLogo, level: "Proficient" },
+      { name: "Netlify", logo: netlifyLogo, level: "Proficient" },
+      { name: "Figma", logo: figmaLogo, level: "Proficient" },
     ],
   },
 ];
