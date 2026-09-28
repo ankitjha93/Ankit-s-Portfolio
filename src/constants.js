@@ -113,7 +113,15 @@ export const experiences = [
     company: "GBJ Buzz Pvt. Ltd.",
     location: "Application Development Team",
     date: "July 2026 – Present",
+    isCurrent: true,
+    badge: "Current Role • Team Lead",
     desc: "Joined as a Full Stack Developer Intern and took on Development Team Lead responsibilities for the Printable project. Developed and maintained microservices-based backend services using Node.js, TypeScript, Prisma, PostgreSQL, Redis, and Docker within an Nx monorepo. Architected secure authentication & authorization including email/mobile OTP verification, JWT access/refresh token rotation, session management, and RBAC. Designed and integrated REST APIs across Auth, User, Merchant, Order, Wallet, File Vault, Freelancer, and API Gateway services.",
+    bullets: [
+      "Promoted to Development Team Lead coordinating sprint tasks, code reviews, and structured Git PR workflows.",
+      "Engineered microservices backend architecture using Node.js, TypeScript, Prisma, PostgreSQL, Redis, and Docker in an Nx monorepo.",
+      "Architected auth workflows with cryptographic OTP generation, bcrypt hashing, Redis TTL, JWT token rotation, and RBAC.",
+      "Designed and integrated REST APIs across Auth, User, Merchant, Order, Wallet, File Vault, Freelancer, and API Gateway.",
+    ],
     skills: [
       "Node.js",
       "TypeScript",
@@ -135,7 +143,14 @@ export const experiences = [
     company: "Bluestock Fintech",
     location: "Pune, India",
     date: "Apr 2025 – May 2025",
+    isCurrent: false,
+    badge: "Fintech Engineering",
     desc: "Developed and optimized React.js components for a fintech dashboard, reducing page load time by 20% and improving user engagement. Integrated REST APIs with frontend components, enabling seamless data flow and supporting 100+ daily user interactions. Implemented secure authentication and enhanced UI responsiveness, increasing platform usability by 30%.",
+    bullets: [
+      "Developed high-performance React.js components for a fintech analytics dashboard, cutting load time by 20%.",
+      "Integrated secure REST APIs supporting 100+ daily user transactions with seamless state synchronization.",
+      "Implemented secure authentication and responsive interfaces, boosting platform usability by 30%.",
+    ],
     skills: [
       "React.js",
       "REST APIs",
@@ -153,7 +168,14 @@ export const experiences = [
     company: "CodSoft",
     location: "Kolkata, West Bengal",
     date: "Feb 2024 – Mar 2024",
+    isCurrent: false,
+    badge: "Web Development",
     desc: "Developed a responsive landing page with optimized layout and visuals, improving UI/UX using HTML5, CSS3, and JavaScript. Built a functional calculator with interactive UI, implementing core JavaScript logic for real-time calculations. Designed and deployed a personal portfolio website, showcasing projects and skills using React.js and Tailwind CSS.",
+    bullets: [
+      "Developed responsive landing pages with optimized visuals and layout using HTML5, CSS3, and modern JavaScript.",
+      "Built interactive web applications including a computational tool implementing custom JavaScript logic.",
+      "Designed and deployed responsive web solutions with cross-browser compatibility using React.js & Tailwind CSS.",
+    ],
     skills: [
       "HTML5",
       "CSS3",
