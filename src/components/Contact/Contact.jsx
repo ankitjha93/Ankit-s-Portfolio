@@ -67,7 +67,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans relative"
+      className="py-20 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans relative"
     >
       {/* Toast Notification Container */}
       <ToastContainer />

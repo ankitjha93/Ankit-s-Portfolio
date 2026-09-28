@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-3"
+      className="py-20 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans bg-skills-gradient clip-path-custom-3"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -19,19 +19,19 @@ const Education = () => {
 
       {/* Education Timeline */}
       <div className="relative">
-        {/* Vertical Center Line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-purple-500/40 h-full"></div>
+        {/* Vertical Center Line (Left-6 on mobile, Center on desktop) */}
+        <div className="absolute left-6 sm:left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-purple-500 via-pink-500 to-indigo-500/40 h-full rounded-full shadow-[0_0_8px_#a855f7]"></div>
 
         {/* Education Entries */}
         {education.map((edu, index) => (
           <div
             key={edu.id}
-            className={`flex flex-col sm:flex-row items-center mb-16 ${
+            className={`relative flex flex-col sm:flex-row items-center mb-12 sm:mb-16 ${
               index % 2 === 0 ? "sm:justify-start" : "sm:justify-end"
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-[#0d081f] border-4 border-[#8245ec] w-14 h-14 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10 overflow-hidden p-1 shadow-lg shadow-purple-500/30">
+            <div className="absolute left-6 sm:left-1/2 transform -translate-x-1/2 bg-[#0d081f] border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10 overflow-hidden p-1 shadow-lg shadow-purple-500/30">
               <img
                 src={edu.img}
                 alt={edu.school}
@@ -41,10 +41,9 @@ const Education = () => {
 
             {/* Content Card */}
             <div
-              className={`w-full sm:max-w-lg p-6 sm:p-7 rounded-2xl shadow-2xl border border-purple-500/30 bg-gradient-to-b from-[#0f0c29]/95 to-[#171233]/95 backdrop-blur-md shadow-[0_0_25px_1px_rgba(130,69,236,0.25)] ${
-                index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-44 sm:mr-44 ml-8 transform transition-all duration-300 hover:scale-[1.02] hover:border-purple-400 hover:shadow-purple-500/30 group`}
+              className={`w-full pl-14 sm:pl-0 sm:w-[calc(50%-2rem)] md:w-[calc(50%-2.5rem)]`}
             >
+              <div className="p-6 sm:p-7 rounded-2xl shadow-2xl border border-purple-500/30 bg-gradient-to-b from-[#0f0c29]/95 to-[#171233]/95 backdrop-blur-md shadow-[0_0_25px_1px_rgba(130,69,236,0.25)] transform transition-all duration-300 hover:scale-[1.02] hover:border-purple-400 hover:shadow-purple-500/30 group">
               {/* Flex container for image and text */}
               <div className="flex items-start space-x-4">
                 {/* School Logo */}
@@ -120,6 +119,7 @@ const Education = () => {
                   {edu.grade}
                 </span>
               </div>
+            </div>
             </div>
           </div>
         ))}

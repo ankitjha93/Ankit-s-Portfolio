@@ -77,7 +77,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans relative"
+      className="py-20 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans relative"
     >
       {/* Section Title */}
       <div className="text-center mb-12">
@@ -297,7 +297,7 @@ const Work = () => {
               </div>
 
               {/* Action Buttons in Modal */}
-              <div className="flex gap-4 pt-2">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2">
                 <a
                   href={selectedProject.github}
                   target="_blank"

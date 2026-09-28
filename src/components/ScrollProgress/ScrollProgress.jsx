@@ -46,7 +46,7 @@ const ScrollProgress = () => {
 
       {/* Floating Circular Progress Ring + Back to Top Button */}
       <div
-        className={`fixed bottom-6 right-6 z-40 transition-all duration-300 ${
+        className={`fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 transition-all duration-300 ${
           showTopBtn
             ? "opacity-100 translate-y-0 pointer-events-auto"
             : "opacity-0 translate-y-6 pointer-events-none"
@@ -56,27 +56,30 @@ const ScrollProgress = () => {
           onClick={scrollToTop}
           aria-label="Scroll back to top"
           title={`Scroll to top (${Math.round(scrollProgress)}%)`}
-          className="relative flex items-center justify-center w-14 h-14 rounded-full bg-[#0d081f]/90 backdrop-blur-md border border-purple-500/30 text-purple-300 hover:text-white hover:border-purple-400 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105 transition-all duration-300 cursor-pointer group"
+          className="relative flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#0d081f]/90 backdrop-blur-md border border-purple-500/30 text-purple-300 hover:text-white hover:border-purple-400 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105 transition-all duration-300 cursor-pointer group"
         >
           {/* Circular SVG Ring */}
-          <svg className="absolute inset-0 w-full h-full -rotate-90 pointer-events-none p-1">
+          <svg
+            viewBox="0 0 52 52"
+            className="absolute inset-0 w-full h-full -rotate-90 pointer-events-none p-1"
+          >
             <circle
-              cx="24"
-              cy="24"
-              r={radius}
+              cx="26"
+              cy="26"
+              r={21}
               className="text-gray-800"
               strokeWidth="3"
               stroke="currentColor"
               fill="transparent"
             />
             <circle
-              cx="24"
-              cy="24"
-              r={radius}
+              cx="26"
+              cy="26"
+              r={21}
               stroke="url(#progressGradient)"
               strokeWidth="3.5"
-              strokeDasharray={circumference}
-              strokeDashoffset={strokeDashoffset}
+              strokeDasharray={2 * Math.PI * 21}
+              strokeDashoffset={2 * Math.PI * 21 - (scrollProgress / 100) * (2 * Math.PI * 21)}
               strokeLinecap="round"
               fill="transparent"
               className="transition-[stroke-dashoffset] duration-150 ease-out"
@@ -90,7 +93,7 @@ const ScrollProgress = () => {
           </svg>
 
           {/* Icon */}
-          <FiArrowUp className="text-xl relative z-10 group-hover:-translate-y-1 transition-transform duration-200" />
+          <FiArrowUp className="text-lg sm:text-xl relative z-10 group-hover:-translate-y-1 transition-transform duration-200" />
         </button>
       </div>
     </>

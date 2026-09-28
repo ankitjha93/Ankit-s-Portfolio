@@ -42,7 +42,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2 relative"
+      className="py-20 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans bg-skills-gradient clip-path-custom-2 relative"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -55,19 +55,19 @@ const Experience = () => {
 
       {/* Experience Timeline */}
       <div className="relative">
-        {/* Vertical Center Line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-gradient-to-b from-purple-500 via-pink-500 to-indigo-500/40 h-full rounded-full shadow-[0_0_8px_#a855f7]"></div>
+        {/* Vertical Center Line (Left-6 on mobile, Center on desktop) */}
+        <div className="absolute left-6 sm:left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-purple-500 via-pink-500 to-indigo-500/40 h-full rounded-full shadow-[0_0_8px_#a855f7]"></div>
 
         {/* Experience Entries */}
         {experiences.map((experience, index) => (
           <div
             key={experience.id}
-            className={`flex flex-col sm:flex-row items-center mb-16 ${
+            className={`relative flex flex-col sm:flex-row items-center mb-12 sm:mb-16 ${
               index % 2 === 0 ? "sm:justify-end" : "sm:justify-start"
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-[#0d081f] border-4 border-[#8245ec] w-14 h-14 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10 overflow-hidden p-1.5 shadow-lg shadow-purple-500/30">
+            <div className="absolute left-6 sm:left-1/2 transform -translate-x-1/2 bg-[#0d081f] border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10 overflow-hidden p-1.5 shadow-lg shadow-purple-500/30">
               <img
                 src={experience.img}
                 alt={experience.company}
@@ -79,11 +79,7 @@ const Experience = () => {
             </div>
 
             {/* Content Section with Parallax Tilt & Spotlight */}
-            <div
-              className={`w-full sm:max-w-lg ${
-                index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-44 sm:mr-44 ml-8`}
-            >
+            <div className="w-full pl-14 sm:pl-0 sm:w-[calc(50%-2rem)] md:w-[calc(50%-2.5rem)]">
               <Tilt
                 tiltMaxAngleX={8}
                 tiltMaxAngleY={8}

@@ -24,7 +24,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="text-white pt-16 pb-12 px-[12vw] md:px-[7vw] lg:px-[16vw] relative font-sans">
+    <footer className="text-white pt-16 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative font-sans">
       {/* Top Gradient Divider Line */}
       <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-purple-500/50 to-transparent mb-12"></div>
 

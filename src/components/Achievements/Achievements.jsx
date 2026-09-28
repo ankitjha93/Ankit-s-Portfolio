@@ -75,7 +75,7 @@ const Achievements = () => {
   return (
     <section
       id="achievements"
-      className="py-24 px-[12vw] md:px-[7vw] lg:px-[20vw] relative font-sans"
+      className="py-20 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative font-sans"
     >
       {/* Section Title */}
       <div className="text-center mb-12">
