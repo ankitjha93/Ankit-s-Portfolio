@@ -24,6 +24,7 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 
 // Company / Experience Logo's
+import gbjbuzzLogo from './assets/company_logo/gbjbuzz_logo.png';
 import bluestockLogo from './assets/company_logo/bluestock_logo.png';
 import codsoftLogo from './assets/company_logo/codsoft_logo.png';
 
@@ -105,6 +106,28 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
+    img: gbjbuzzLogo,
+    role: "Full Stack Developer Intern & Team Lead",
+    company: "GBJ Buzz Pvt. Ltd.",
+    location: "Application Development Team",
+    date: "July 2026 – Present",
+    desc: "Joined as a Full Stack Developer Intern and took on Development Team Lead responsibilities for the Printable project. Developed and maintained microservices-based backend services using Node.js, TypeScript, Prisma, PostgreSQL, Redis, and Docker within an Nx monorepo. Architected secure authentication & authorization including email/mobile OTP verification, JWT access/refresh token rotation, session management, and RBAC. Designed and integrated REST APIs across Auth, User, Merchant, Order, Wallet, File Vault, Freelancer, and API Gateway services.",
+    skills: [
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Redis",
+      "Docker",
+      "Microservices",
+      "JWT & RBAC",
+      "REST APIs",
+      "Nx Monorepo",
+      "Team Leadership",
+    ],
+  },
+  {
+    id: 1,
     img: bluestockLogo,
     role: "Software Development Engineer Intern",
     company: "Bluestock Fintech",
@@ -122,7 +145,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: codsoftLogo,
     role: "Web Developer Intern",
     company: "CodSoft",
