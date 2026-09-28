@@ -25,6 +25,7 @@ import figmaLogo from './assets/tech_logo/figma.png';
 
 // Company / Experience Logo's
 import bluestockLogo from './assets/company_logo/bluestock_logo.png';
+import codsoftLogo from './assets/company_logo/codsoft_logo.png';
 
 // Education Logo's
 import choukseyLogo from './assets/education_logo/chouksey_logo.png';
@@ -118,6 +119,24 @@ export const experiences = [
       "Tailwind CSS",
       "UI/UX Optimization",
       "Performance Tuning",
+    ],
+  },
+  {
+    id: 1,
+    img: codsoftLogo,
+    role: "Web Developer Intern",
+    company: "CodSoft",
+    location: "Kolkata, West Bengal",
+    date: "Feb 2024 – Mar 2024",
+    desc: "Developed a responsive landing page with optimized layout and visuals, improving UI/UX using HTML5, CSS3, and JavaScript. Built a functional calculator with interactive UI, implementing core JavaScript logic for real-time calculations. Designed and deployed a personal portfolio website, showcasing projects and skills using React.js and Tailwind CSS.",
+    skills: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React.js",
+      "Tailwind CSS",
+      "Responsive Design",
+      "UI/UX",
     ],
   },
 ];
