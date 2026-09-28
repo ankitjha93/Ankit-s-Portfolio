@@ -170,6 +170,7 @@ export const projects = [
   {
     id: 0,
     title: "PrepSmart AI",
+    category: "ai",
     subtitle: "AI Interview & Career Preparation Platform",
     description:
       "A full-stack AI interview platform built using Next.js and Node.js, supporting 100+ sessions with real-time feedback powered by Gemini AI. Implemented secure authentication with Clerk, managing 500+ user sessions with role-based access control. Optimized database queries and indexing with Drizzle ORM, reducing API response time by 30% and improving scalability.",
@@ -182,6 +183,7 @@ export const projects = [
   {
     id: 1,
     title: "PopcornPlay",
+    category: "fullstack",
     subtitle: "Movie Streaming & Subscription Platform",
     description:
       "A feature-rich movie streaming platform with Google OAuth 2.0 authentication using Firebase Authentication for 200+ users. Managed predictable global state with Redux Toolkit, reducing bugs by 15% and boosting stability. Implemented Stripe Checkout and Webhooks for secure, real-time subscription payment processing.",
@@ -194,6 +196,7 @@ export const projects = [
   {
     id: 2,
     title: "NutriPlate",
+    category: "frontend",
     subtitle: "Nutrition & Meal-Planning Platform",
     description:
       "Developed 'NutriPlate,' a modern, fully responsive nutrition and meal-planning website using HTML5 and CSS3 with a focus on clean layout and intuitive UX. Designed structured sections to showcase healthy meals with complete mobile responsiveness and consistent styling. Deployed on Netlify, ensuring fast loading, cross-browser compatibility, and seamless public accessibility.",
