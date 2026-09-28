@@ -30,6 +30,7 @@ import codsoftLogo from './assets/company_logo/codsoft_logo.png';
 
 // Education Logo's
 import choukseyLogo from './assets/education_logo/chouksey_logo.png';
+import cgbseLogo from './assets/education_logo/cgbse_logo.png';
 
 // Project Section Logo's
 import csprepLogo from './assets/work_logo/cs_prep.png';
@@ -231,10 +232,20 @@ export const education = [
     id: 0,
     img: choukseyLogo,
     school: "Chouksey Engineering College",
-    location: "Bilaspur, India",
+    location: "Bilaspur, Chhattisgarh, India",
     date: "2021 – 2025",
     grade: "CGPA: 8.78",
     degree: "B.Tech in Computer Science and Engineering",
     desc: "Completed B.Tech in Computer Science and Engineering with an academic excellence CGPA of 8.78. Strong foundation in Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems (DBMS), Operating Systems, and Computer Networks.",
+  },
+  {
+    id: 1,
+    img: cgbseLogo,
+    school: "Bharat Mata English Medium Higher Secondary School",
+    location: "Bilaspur, Chhattisgarh, India",
+    date: "2018 – 2019",
+    grade: "Percentage: 80.5% (First Division)",
+    degree: "Secondary School Certificate (Class X - CGBSE)",
+    desc: "Completed Class 10th with First Division (80.5%), achieving distinction marks in Sanskrit (93/100), English (84/100), Mathematics (82/100), and Science (81/100).",
   },
 ];
