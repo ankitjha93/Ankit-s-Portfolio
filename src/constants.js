@@ -30,7 +30,7 @@ import codsoftLogo from './assets/company_logo/codsoft_logo.png';
 
 // Education Logo's
 import choukseyLogo from './assets/education_logo/chouksey_logo.png';
-import cgbseLogo from './assets/education_logo/cgbse_logo.png';
+import bharatmataLogo from './assets/education_logo/bharatmata_logo.svg';
 
 // Project Section Logo's
 import csprepLogo from './assets/work_logo/cs_prep.png';
@@ -237,25 +237,48 @@ export const education = [
     grade: "CGPA: 8.78",
     degree: "B.Tech in Computer Science and Engineering",
     desc: "Completed B.Tech in Computer Science and Engineering with an academic excellence CGPA of 8.78. Strong foundation in Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems (DBMS), Operating Systems, and Computer Networks.",
+    specialHighlight: "Academic Excellence • First Class with Distinction",
+    scores: [
+      { subject: "CGPA", score: "8.78", highlight: true },
+      { subject: "Core CS", score: "DSA & OOP" },
+      { subject: "Specialization", score: "Full Stack Web" },
+    ],
   },
   {
     id: 1,
-    img: cgbseLogo,
+    img: bharatmataLogo,
     school: "Bharat Mata English Medium Higher Secondary School",
     location: "Bilaspur, Chhattisgarh, India",
     date: "2019 – 2021",
     grade: "Percentage: 89.8% (First Division)",
-    degree: "Higher Secondary Certificate (Class XII - PCM)",
-    desc: "Passed with First Division (89.8%) and distinctions across all subjects, achieving a perfect 100/100 in Mathematics, 91 in Hindi, 89 in Physics, 86 in English, and 83 in Chemistry.",
+    degree: "Higher Secondary Certificate (Class XII - Science PCM)",
+    desc: "Achieved First Division (89.8%) with distinctions across all 5 subjects, highlighted by a flawless 100/100 perfect score in Mathematics.",
+    specialHighlight: "💯 Perfect 100/100 in Mathematics • All-Subject Distinctions",
+    scores: [
+      { subject: "Mathematics", score: "100/100", highlight: true },
+      { subject: "Hindi", score: "91/100" },
+      { subject: "Physics", score: "89/100" },
+      { subject: "English", score: "86/100" },
+      { subject: "Chemistry", score: "83/100" },
+    ],
   },
   {
     id: 2,
-    img: cgbseLogo,
+    img: bharatmataLogo,
     school: "Bharat Mata English Medium Higher Secondary School",
     location: "Bilaspur, Chhattisgarh, India",
     date: "2018 – 2019",
     grade: "Percentage: 80.5% (First Division)",
     degree: "Secondary School Certificate (Class X - CGBSE)",
-    desc: "Completed Class 10th with First Division (80.5%), achieving distinction marks in Sanskrit (93/100), English (84/100), Mathematics (82/100), and Science (81/100).",
+    desc: "Passed Class 10th in First Division (80.5%), earning 4 subject distinctions in Sanskrit, English, Mathematics, and Science.",
+    specialHighlight: "4 Subject Distinctions • Top Marks in Sanskrit & English",
+    scores: [
+      { subject: "Sanskrit", score: "93/100", highlight: true },
+      { subject: "English", score: "84/100" },
+      { subject: "Mathematics", score: "82/100" },
+      { subject: "Science", score: "81/100" },
+      { subject: "Hindi", score: "73/100" },
+      { subject: "Social Sci", score: "70/100" },
+    ],
   },
 ];
