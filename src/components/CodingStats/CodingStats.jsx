@@ -237,6 +237,53 @@ const CodingStats = () => {
           </SpotlightCard>
         </Tilt>
       </div>
+
+      {/* Live GitHub Contributions Heatmap Banner */}
+      <div className="mt-12 p-6 sm:p-8 rounded-2xl bg-[#0f0c29]/90 border border-purple-500/25 shadow-xl backdrop-blur-md">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+          <div className="flex items-center gap-3">
+            <div className="p-2.5 rounded-xl bg-purple-950/70 border border-purple-500/30 text-white text-xl">
+              <SiGithub />
+            </div>
+            <div>
+              <h3 className="text-xl sm:text-2xl font-bold text-white">
+                GitHub Contribution Activity
+              </h3>
+              <p className="text-xs text-gray-400 mt-0.5">
+                Real-time commit calendar & activity momentum for{" "}
+                <span className="text-purple-300 font-mono">@ankitjha93</span>
+              </p>
+            </div>
+          </div>
+          <a
+            href={personalInfo.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-xs font-semibold px-3.5 py-1.5 rounded-full bg-purple-950/60 border border-purple-500/30 text-purple-300 hover:text-white hover:border-purple-400 transition-colors"
+          >
+            <span>Follow on GitHub</span>
+            <FiExternalLink />
+          </a>
+        </div>
+
+        {/* Heatmap Image Container with responsive scroll */}
+        <div className="overflow-x-auto pb-2 rounded-xl bg-[#080516] p-4 border border-purple-500/15">
+          <img
+            src="https://ghchart.rshah.org/8245ec/ankitjha93"
+            alt="Ankit Jha's GitHub Contribution Chart"
+            className="min-w-[650px] w-full h-auto mx-auto"
+            loading="lazy"
+          />
+        </div>
+
+        <div className="mt-4 flex flex-wrap items-center justify-between text-xs text-gray-400 gap-2">
+          <span className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span>Active Open-Source & Private Contribution Momentum</span>
+          </span>
+          <span className="font-mono text-purple-400">git commit -m &quot;feat: continuous learning&quot;</span>
+        </div>
+      </div>
     </section>
   );
 };

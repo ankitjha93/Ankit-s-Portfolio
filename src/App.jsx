@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import About from "./components/About/About.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Experience from "./components/Experience/Experience.jsx";
+import WhyHireMe from "./components/WhyHireMe/WhyHireMe.jsx";
 import Work from "./components/Work/Work.jsx";
 import CodingStats from "./components/CodingStats/CodingStats.jsx";
 import Achievements from "./components/Achievements/Achievements.jsx";
@@ -10,6 +11,7 @@ import Education from "./components/Education/Education.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import ScrollProgress from "./components/ScrollProgress/ScrollProgress.jsx";
+import CommandPalette from "./components/CommandPalette/CommandPalette.jsx";
 import { BlurBlob } from "./BlurBlob.jsx";
 
 const App = () => {
@@ -17,6 +19,9 @@ const App = () => {
     <div className="bg-[#050414] min-h-screen relative overflow-hidden text-white">
       {/* Top Reading Progress & Floating Back-To-Top Button */}
       <ScrollProgress />
+
+      {/* Global Command Palette (Ctrl+K / Cmd+K & Quick Navigation) */}
+      <CommandPalette />
 
       <BlurBlob
         position={{ top: "35%", left: "20%" }}
@@ -30,6 +35,7 @@ const App = () => {
         <About />
         <Skills />
         <Experience />
+        <WhyHireMe />
         <Work />
         <CodingStats />
         <Achievements />
