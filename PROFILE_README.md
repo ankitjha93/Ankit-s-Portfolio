@@ -1,89 +1,101 @@
-<h1 align="center">Hi 👋, I'm Ankit Jha</h1>
+<div align="center">
 
-<h3 align="center">
-Full Stack Developer & Team Lead • React.js • Next.js • Node.js • Microservices • AI Applications
-</h3>
+  <!-- Aesthetic Waving Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=8245ec,a855f7,ec4899&height=220&section=header&text=Ankit%20Jha&fontSize=52&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Team%20Lead%20%7C%20AI%20%26%20Microservices&descAlignY=60&descSize=19" width="100%" alt="Ankit Jha Header Banner" />
 
-<p align="center">
-  <a href="https://ankit-s-portfolio-nine.vercel.app/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=36BCF7&center=true&vCenter=true&width=780&lines=Full+Stack+Developer+%26+Team+Lead;Microservices+%26+Next.js+Specialist;Enterprise+Auth%2C+Redis+Caching+%26+Docker;Problem+Solver+%7C+300%2B+DSA+Problems" alt="Typing Banner" />
-  </a>
-</p>
+  <!-- Animated Dynamic Typing Subtitle -->
+  <p align="center">
+    <a href="https://ankit-s-portfolio-nine.vercel.app/">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=A855F7&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%26+Team+Lead;Microservices+%26+Next.js+Architect;Enterprise+Auth%2C+Redis+Caching+%26+Docker;Problem+Solver+%7C+300%2B+DSA+Milestones" alt="Typing SVG" />
+    </a>
+  </p>
 
-<p align="center">
-  <a href="https://ankit-s-portfolio-nine.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐_Live_Portfolio-ankit--s--portfolio-8245ec?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/ankit-jha-93-/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://leetcode.com/u/ankitjha93/">
-    <img src="https://img.shields.io/badge/LeetCode-300+_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
-  </a>
-  <a href="https://komarev.com/ghpvc/?username=ankitjha93&label=Profile%20Views&color=8245ec&style=for-the-badge">
-    <img src="https://komarev.com/ghpvc/?username=ankitjha93&label=Profile%20Views&color=8245ec&style=for-the-badge" alt="Profile Views" />
-  </a>
-</p>
+  <!-- Quick Action & Social Badges -->
+  <p align="center">
+    <a href="https://ankit-s-portfolio-nine.vercel.app/">
+      <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Website-8245ec?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" />
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/ankit-jha-93-/">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="https://leetcode.com/u/ankitjha93/">
+      <img src="https://img.shields.io/badge/LeetCode-300+_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+    </a>
+    &nbsp;
+    <a href="https://komarev.com/ghpvc/?username=ankitjha93&label=Profile%20Views&color=8245ec&style=for-the-badge">
+      <img src="https://komarev.com/ghpvc/?username=ankitjha93&label=Profile%20Views&color=8245ec&style=for-the-badge" alt="Profile Views" />
+    </a>
+  </p>
 
----
+  <!-- Status Indicator -->
+  <p align="center">
+    <code>🟢 Available for Full-Time Software Engineering & Full-Stack Opportunities</code>
+  </p>
 
-# 💫 About Me
-
-🚀 **Full Stack Developer & Development Team Lead** passionate about building scalable, high-performance web systems and AI applications.
-
-💡 **Core Expertise**:
-- **Frontend Architecture**: React 19, Next.js (SSR/ISR), TypeScript, Tailwind CSS, Redux Toolkit
-- **Backend & Microservices**: Node.js, Express.js, Nx Monorepo, Docker, RESTful APIs
-- **Databases & Caching**: PostgreSQL, MongoDB, Redis (sub-millisecond TTL caching), Prisma ORM
-- **Security & Identity**: Zero-Trust Auth, Cryptographic OTP, Bcrypt, JWT Token Rotation, Redis Sessions, RBAC
-
-📈 **Production Highlights**:
-- Led microservices development and coordinated sprint deliverables as **Development Team Lead** for the Printable project at **GBJ Buzz**.
-- Optimized React.js analytics dashboard performance, cutting load time by **20%** at **Bluestock Fintech**.
-- Consistent algorithmic problem solver with **300+ problems solved** in C++ across LeetCode & CodeChef.
-
-🎯 **Current Focus**:
-- Scalable Distributed Systems & Event-Driven Architecture
-- AI SaaS Integrations (OpenAI / Gemini APIs)
-- Advanced System Design & Low-Level Design (LLD/HLD)
+</div>
 
 ---
 
-# 🌐 Connect With Me
+## 💫 Executive Overview
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/ankit-jha-93-/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/ankitjha93" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/u/ankitjha93/" target="_blank">
-    <img src="https://assets.leetcode.com/static_assets/public/icons/favicon-96x96.png" height="42" alt="LeetCode" />
-  </a>
-  &nbsp;
-  <a href="mailto:93ankitjha@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" height="42" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://ankit-s-portfolio-nine.vercel.app/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=vercel" height="42" alt="Portfolio" />
-  </a>
-</p>
-
-📫 Direct Email: **[93ankitjha@gmail.com](mailto:93ankitjha@gmail.com)**  
-📱 Phone: **[+91-7587233945](tel:+917587233945)**  
-📍 Location: **Bilaspur, Chhattisgarh, India**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💼 Engineering Leadership</h3>
+      <p>
+        Appointed <b>Development Team Lead</b> for the Printable project at <b>GBJ Buzz</b>. Coordinated sprint planning, microservices architecture, and structured Git PR code reviews across full-stack engineering teams.
+      </p>
+      <ul>
+        <li><b>Microservices</b>: Node.js, TypeScript, Prisma, PostgreSQL, Redis, Docker</li>
+        <li><b>Monorepo</b>: Unified Nx monorepo workflows with pnpm</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ Enterprise Security & Identity</h3>
+      <p>
+        Deep hands-on expertise architecting zero-trust authentication workflows and high-throughput security foundations:
+      </p>
+      <ul>
+        <li>Cryptographic OTP generation & verification rate-limiting</li>
+        <li>Bcrypt hashing & sub-millisecond Redis TTL sessions</li>
+        <li>JWT access/refresh token rotation & Granular RBAC</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Frontend & UI Engineering</h3>
+      <p>
+        Engineering high-performance, accessible, and responsive user interfaces with focus on sub-100ms interaction latency:
+      </p>
+      <ul>
+        <li>React 19, Next.js (SSR/ISR), Tailwind CSS, Redux Toolkit</li>
+        <li>Reduced dashboard load time by <b>20%</b> at Bluestock Fintech</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧩 Problem Solving & Academics</h3>
+      <p>
+        Consistent algorithmic discipline with competitive problem-solving milestones in <b>C++</b>:
+      </p>
+      <ul>
+        <li><b>300+ Problems Solved</b> across LeetCode & CodeChef</li>
+        <li><b>8.78 B.Tech CGPA</b> (Computer Science & Engineering)</li>
+        <li><b>💯 Perfect 100/100</b> in Mathematics (Class XII Board)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-# 💻 Tech Stack & Tooling
+## 💻 Tech Stack & Tooling
 
 <div align="left">
 
-### 🚀 Frontend & UI Engineering
+### 🎨 Frontend & UI Engineering
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,html,css,bootstrap" alt="Frontend Stack" />
 </p>
@@ -98,7 +110,7 @@ Full Stack Developer & Team Lead • React.js • Next.js • Node.js • Micros
   <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,prisma,mysql" alt="Databases Stack" />
 </p>
 
-### 🧩 Programming Languages (Core & DSA)
+### 🧩 Core Languages & Problem Solving
 <p>
   <img src="https://skillicons.dev/icons?i=cpp,py,ts,js,java,c" alt="Languages Stack" />
 </p>
@@ -112,35 +124,35 @@ Full Stack Developer & Team Lead • React.js • Next.js • Node.js • Micros
 
 ---
 
-# 💼 Professional Experience
+## 💼 Work Experience
 
-### 🏢 **GBJ Buzz Pvt. Ltd.** — *Full Stack Developer Intern & Development Team Lead*
-📍 *Application Development Team* | 📅 *July 2026 – Present*
-- Joined as Full Stack Developer Intern and promoted to **Development Team Lead** for the flagship Printable project.
-- Developed and maintained **microservices backend services** using **Node.js, TypeScript, Prisma, PostgreSQL, Redis, and Docker** within an **Nx monorepo**.
-- Engineered zero-trust authentication workflows: **cryptographic OTP generation, bcrypt hashing, Redis TTL limits, JWT access/refresh rotation, and RBAC**.
-- Designed and integrated scalable REST APIs across **Auth, User, Merchant, Order, Wallet, File Vault, and API Gateway** services.
+```
+GBJ Buzz Pvt. Ltd. (July 2026 – Present)
+└── Full Stack Developer Intern ➔ Appointed Development Team Lead
+    ├── Architected microservices with Node.js, TypeScript, Prisma, PostgreSQL, Redis, Docker
+    ├── Engineered zero-trust auth: cryptographic OTP, bcrypt hashing, JWT access/refresh rotation
+    └── Directed sprint deliverables, managed Nx monorepo, and conducted structured Git PR reviews
 
-### 🏢 **Bluestock Fintech** — *Software Development Engineer Intern*
-📍 *Pune, India* | 📅 *Apr 2025 – May 2025*
-- Developed and optimized React.js dashboard components, reducing page load time by **20%** and improving UX.
-- Integrated REST APIs supporting **100+ daily financial user transactions** with seamless state management.
-- Hardened authentication flow and interface responsiveness, increasing platform usability by **30%**.
+Bluestock Fintech (Apr 2025 – May 2025)
+└── Software Development Engineer Intern
+    ├── Optimized React.js analytics dashboard reducing initial load time by 20%
+    └── Integrated RESTful APIs supporting 100+ daily financial transactions with seamless state sync
 
-### 🏢 **CodSoft** — *Web Developer Intern*
-📍 *Kolkata, India* | 📅 *Feb 2024 – Mar 2024*
-- Developed responsive web applications, landing pages, and interactive computational tools using **HTML5, CSS3, JavaScript, React.js, and Tailwind CSS**.
+CodSoft (Feb 2024 – Mar 2024)
+└── Web Developer Intern
+    └── Developed responsive landing pages, interactive computational tools, and modern web apps
+```
 
 ---
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">🥗 NutriPlate — Smart AI Nutrition Platform</h3>
       <p align="center">
-        <b>Personalized AI-powered dietary planning, nutrition analysis & recipe discovery.</b>
+        <b>Personalized AI dietary planning, nutrition analysis & recipe discovery.</b>
       </p>
       <p>
         • Automatic macro & micronutrient calculation engine<br />
@@ -214,41 +226,25 @@ Full Stack Developer & Team Lead • React.js • Next.js • Node.js • Micros
 
 ---
 
-# 🏆 Achievements & Academic Milestones
+## 📊 GitHub Analytics & Momentum
 
-### 🏅 Competitive Programming & Problem Solving
-- **300+ DSA Problems Solved** across **LeetCode** and **CodeChef** focusing on Graphs, Trees, Dynamic Programming, and Greedy Algorithms in **C++**.
-- Active solver with structured solutions on [LeetCode (@ankitjha93)](https://leetcode.com/u/ankitjha93/).
+<div align="center">
 
-### 🎓 Academic Honors
-- **Bachelor of Technology (B.Tech) — Computer Science & Engineering**  
-  *Chouksey Engineering College, Bilaspur* (`2021 – 2025`) — **8.78 CGPA** (First Class with Distinction)
-- **Class XII (Senior Secondary) — Physics, Chemistry, Mathematics**  
-  *Bharat Mata EM Higher Secondary School, Bilaspur* (`2019 – 2021`) — **89.8%** • **💯 Perfect 100/100 in Mathematics** • Distinctions in all 5 subjects
-- **Class X (Secondary School Certificate)**  
-  *Bharat Mata EM Higher Secondary School, Bilaspur* (`2018 – 2019`) — **80.5%** • 4 Subject Distinctions
+  <p align="center">
+    <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ankitjha93&show_icons=true&theme=tokyonight&border_color=8245ec&rank_icon=github" alt="GitHub Stats" />
+    <img width="49%" src="https://streak-stats.demolab.com/?user=ankitjha93&theme=tokyonight&border_color=8245ec" alt="GitHub Streak" />
+  </p>
 
-### 📜 Technical Certifications
-- **C++ Programming** — GeeksforGeeks
-- **Machine Learning with Python** — IBM
+  <p align="center">
+    <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ankitjha93&layout=compact&theme=tokyonight&border_color=8245ec" alt="Top Languages" />
+    <img width="49%" src="https://leetcard.jacoblin.cool/ankitjha93?theme=nord&font=Karma&border=8245ec" alt="LeetCode Stats" />
+  </p>
+
+</div>
 
 ---
 
-# 📊 GitHub Analytics & Momentum
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ankitjha93&show_icons=true&theme=tokyonight&border_color=8245ec&rank_icon=github" alt="GitHub Stats" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=ankitjha93&theme=tokyonight&border_color=8245ec" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ankitjha93&layout=compact&theme=tokyonight&border_color=8245ec" alt="Top Languages" />
-  <img width="49%" src="https://leetcard.jacoblin.cool/ankitjha93?theme=nord&font=Karma&border=8245ec" alt="LeetCode Stats" />
-</p>
-
----
-
-# 📈 Contribution Activity Calendar
+## 📈 Contribution Activity Calendar
 
 <p align="center">
   <a href="https://github.com/ankitjha93">
@@ -258,10 +254,21 @@ Full Stack Developer & Team Lead • React.js • Next.js • Node.js • Micros
 
 ---
 
+## 🎓 Academic Honors & Milestones
+
+- 🎓 **Bachelor of Technology (B.Tech) — Computer Science & Engineering**  
+  *Chouksey Engineering College, Bilaspur* (`2021 – 2025`) — **8.78 CGPA** (First Class with Distinction)
+- 🏫 **Class XII (Senior Secondary) — Physics, Chemistry, Mathematics**  
+  *Bharat Mata EM Higher Secondary School, Bilaspur* (`2019 – 2021`) — **89.8%** • **💯 Perfect 100/100 in Mathematics** • Distinctions in all 5 subjects
+- 🏫 **Class X (Secondary School Certificate)**  
+  *Bharat Mata EM Higher Secondary School, Bilaspur* (`2018 – 2019`) — **80.5%** • 4 Subject Distinctions
+
+---
+
+<!-- Aesthetic Waving Footer Banner -->
 <div align="center">
-  <h3>⚡ Let's build something extraordinary together!</h3>
   <p>
-    Open to Full-Time Software Engineering, Full-Stack, and Frontend/Backend roles.
+    <b>⚡ Let's build something extraordinary together!</b>
   </p>
   <p>
     <a href="mailto:93ankitjha@gmail.com">
@@ -272,5 +279,6 @@ Full Stack Developer & Team Lead • React.js • Next.js • Node.js • Micros
       <img src="https://img.shields.io/badge/Explore_Portfolio-Live_Site-ec4899?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Live Portfolio" />
     </a>
   </p>
-  <sub>Designed & Maintained by <strong>Ankit Jha</strong></sub>
+  <br />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=8245ec,a855f7,ec4899&height=100&section=footer" width="100%" alt="Footer Banner" />
 </div>
