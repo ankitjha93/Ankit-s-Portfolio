@@ -1,12 +1,19 @@
 <div align="center">
 
-  <!-- Aesthetic Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=8245ec,a855f7,ec4899&height=220&section=header&text=Ankit%20Jha&fontSize=52&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Team%20Lead%20%7C%20AI%20%26%20Microservices&descAlignY=60&descSize=19" width="100%" alt="Ankit Jha Header Banner" />
+  <!-- Dynamic Aesthetic Header -->
+  <h1>
+    <a href="https://ankit-s-portfolio-nine.vercel.app/">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=800&size=42&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=650&height=70&lines=Hi%2C+I'm+Ankit+Jha+%F0%9F%91%8B;Full+Stack+Developer;Engineering+Team+Lead" alt="Ankit Jha" />
+    </a>
+  </h1>
 
-  <!-- Animated Dynamic Typing Subtitle -->
+  <h3 align="center">
+    Full Stack Developer & Team Lead • Microservices • React / Next.js • AI Applications
+  </h3>
+
   <p align="center">
     <a href="https://ankit-s-portfolio-nine.vercel.app/">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=A855F7&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%26+Team+Lead;Microservices+%26+Next.js+Architect;Enterprise+Auth%2C+Redis+Caching+%26+Docker;Problem+Solver+%7C+300%2B+DSA+Milestones" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=20&duration=2500&pause=1000&color=EC4899&center=true&vCenter=true&width=750&lines=Microservices+%26+Nx+Monorepo+Architect;Enterprise+Auth%2C+Redis+Caching+%26+Docker;Problem+Solver+%7C+300%2B+DSA+Milestones" alt="Typing Subtitle" />
     </a>
   </p>
 
@@ -265,7 +272,6 @@ CodSoft (Feb 2024 – Mar 2024)
 
 ---
 
-<!-- Aesthetic Waving Footer Banner -->
 <div align="center">
   <p>
     <b>⚡ Let's build something extraordinary together!</b>
@@ -279,6 +285,5 @@ CodSoft (Feb 2024 – Mar 2024)
       <img src="https://img.shields.io/badge/Explore_Portfolio-Live_Site-ec4899?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Live Portfolio" />
     </a>
   </p>
-  <br />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=8245ec,a855f7,ec4899&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <sub>Designed & Maintained with ❤️ by <strong>Ankit Jha</strong></sub>
 </div>
