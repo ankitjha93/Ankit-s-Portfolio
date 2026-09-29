@@ -237,21 +237,23 @@ Full Stack Developer & Team Lead • React.js • Next.js • Node.js • Micros
 # 📊 GitHub Analytics & Momentum
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ankitjha93&show_icons=true&theme=tokyonight&border_color=8245ec&rank_icon=github" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ankitjha93&theme=tokyonight&border=8245ec" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ankitjha93&show_icons=true&theme=tokyonight&border_color=8245ec&rank_icon=github" alt="GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=ankitjha93&theme=tokyonight&border_color=8245ec" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ankitjha93&layout=compact&theme=tokyonight&border_color=8245ec" alt="Top Languages" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=ankitjha93&theme=tokyo-night&border=8245ec" alt="Activity Graph" />
+  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ankitjha93&layout=compact&theme=tokyonight&border_color=8245ec" alt="Top Languages" />
+  <img width="49%" src="https://leetcard.jacoblin.cool/ankitjha93?theme=nord&font=Karma&border=8245ec" alt="LeetCode Stats" />
 </p>
 
 ---
 
-# 🏆 GitHub Trophies
+# 📈 Contribution Activity Calendar
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ankitjha93&theme=tokyonight&margin-w=10&margin-h=10&no-bg=false&no-frame=false" alt="Trophies" />
+  <a href="https://github.com/ankitjha93">
+    <img width="100%" src="https://ghchart.rshah.org/8245ec/ankitjha93" alt="Ankit Jha's GitHub Contribution Calendar" />
+  </a>
 </p>
 
 ---
